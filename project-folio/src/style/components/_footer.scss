@@ -1,0 +1,197 @@
+@import '../abstract/Variaveis';
+
+@media screen and (max-width: 480px) {
+
+    .footer{
+        // background-image: url('../imgs/line2-footer.svg');
+        background-image: url(../imgs/line2-footer.svg);
+        background-repeat: no-repeat;
+        width: 80vw;
+        margin: 0 auto;
+        background-color: $primary-color;
+        border-radius: 24px;
+        background-position-x: 53px;
+        background-position-y: -15px;
+        background-size: contain;
+
+        .footer-container{
+
+            display: flex;
+            margin: 0 auto;
+            width: 80vw;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 24px 24px 0px 0px;
+            border-bottom: .01px solid #949393;
+
+            .balao{
+                max-width: 100%;
+                margin-top: 49px;
+                position: relative;
+                left: 17px;
+
+            }
+
+            .mao{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-weight: 600;
+                font-size: 14px;
+                margin-bottom: 40px;
+
+                img{
+                    margin-right: 13px;
+
+                }
+            }
+
+            h1{
+                text-align: center;
+                width: 200px;
+                margin-bottom: 40px;
+                color: #ffffff;
+
+            }
+        }
+        }
+
+        .footer-container2{
+            display: flex;
+            margin: 0 auto;
+            width: 80vw;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            h1{
+                margin-top: 40px;
+                margin-bottom: 40px;
+                font-size: 32px;
+                color: #ffffff;
+                text-align: center;
+                font-weight: bold;
+                width: 90%;
+                line-height: 40px;
+
+            }
+
+            button{
+                width: 70vw;
+                height: 56px;
+                border: none;
+                background-color: #ffffff;
+                border-radius: 8px;
+                color: $primary-color;
+                margin-bottom: 32px;
+                font-weight: 600;
+                font-size: 16px;
+                cursor: pointer;
+
+            }
+
+        }
+      
+        .footer-folio{
+            margin-top: 85px;
+            
+            .footer-folio-logo{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin: 0 auto;
+
+                img{
+                    width: 140px;
+                    margin-bottom: 32px;
+                }
+
+                h2{
+                    width: 80vw;
+                    text-align: center;
+                    color: $secod-shade-2;
+                    line-height: 28px;
+                    font-size: 16px;
+                    margin-bottom: 24px;
+
+                }
+            }
+
+            .copy{
+                text-align: center;
+                font-size: 12px;
+                font-weight: 600;
+                color: $secod-shade-2;
+                margin-bottom: 56px;
+            }
+        }
+
+        .footer-folio-button{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 70vw;
+            margin: 0 auto;
+            border: 1px solid #D8D8D8;
+            border-radius: 8px;
+            padding: 16px 24px 16px 24px;
+
+
+        }
+
+        .footer-folio-social{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 32px;
+
+
+
+            li{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 40px;
+                height: 40px;
+                border: 1px solid $secod-shade-2;
+                border-radius: 50%;
+                margin-right: 8px;
+                margin-bottom: 32px;
+                transition: .5s;
+
+            }
+
+            .footer-logo-face{
+
+                &:hover{
+                    background-color: $primary-color;
+                    border: none;
+                    
+                }
+
+            }
+            .footer-logo-youtube{
+
+                &:hover{
+                    background-color: rgb(191, 4, 4);
+                    border: none;
+                    
+                }
+
+            }
+            .footer-logo-insta{
+                transition: .5s;
+
+                &:hover{
+                    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+                    border: none;
+                    transition: .5s;
+                }
+
+            }
+        }
+    
+}

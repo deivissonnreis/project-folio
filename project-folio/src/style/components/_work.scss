@@ -1,0 +1,142 @@
+@import '../abstract/Variaveis';
+
+@media screen and (max-width: 480px) {
+    
+    #work{
+
+        .work-texts{
+            h1{
+                margin-left: 32px;
+                font-size: 40px;
+                line-height: 48px;
+                width: 70vw;
+                margin-bottom: 16px;
+
+            }
+
+            h2{
+                margin-left: 32px;
+                font-size: 16px;
+                line-height: 28px;
+                width: 80vw;
+                margin-bottom: 56px;
+                color: #606060;
+
+            }
+
+            .container-work-texts{
+                display: flex;
+                margin-left: 32px;
+                color: $primary-color;
+                margin-bottom: 24px;
+                p{
+                    margin-right: 23px;
+                }
+            }
+        }
+    }
+
+    #work-cards{
+        .work-card{
+            margin-left: 32px;
+
+            h1{
+                margin-top: 24px;
+                font-weight: bold;
+                font-size: 24px;
+                margin-bottom: 16px;
+
+            }
+
+            p{
+                font-size: 16px;
+                line-height: 28px;
+                width: 65vw;
+                color: $secod-shade-1;
+                margin-bottom: 24px;
+
+            }
+            .background-card{
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column;
+                width: 85vw;
+                height: 355px;
+                border-radius: 17px;
+                background-color: #ffba79;
+
+                button{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 9px;
+                    border: none;
+                    width: 118px ;
+                    height: 28px;
+                    border-radius: 14px;
+                    margin-left: 24px;
+                    background-color: $primary-color;
+                    color: white;
+                    font-weight: 600;
+                }
+                a{
+                    text-decoration: none;
+                }
+                img{
+                    justify-self: center;
+                    align-self: center;
+                    height: 40vh;
+                    margin-bottom: -35px;
+                    width: 100%;
+                    max-width: 100%;
+
+                }
+
+            }
+
+            .background-card-tabela{
+                background-color: #e7beff;
+
+            }
+            .background-card-tablet{
+                background-color: #ffce79;
+
+            }
+            .background-card-mic{
+                background-color: #cfeafb;
+            }
+            .background-card-mic2{
+                background-color: #908cff;
+            }
+
+            .button-feature-right{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                border: 2px solid $dark-color;
+                width: 40px;
+                height: 40px;
+                margin-bottom: 32px;
+
+            }
+
+            
+        }
+        
+        .work-button-contact{
+            display: block;
+            margin: 0 auto;
+            width: 80vw;
+            height: 46px;
+            border: none;
+            border-radius: 8px;
+            background-color: $primary-color;
+            color: #ffffff;
+            font-weight: bold;
+            margin-bottom: 24px;
+        }
+    }
+
+}
